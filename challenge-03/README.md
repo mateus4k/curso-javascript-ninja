@@ -87,25 +87,25 @@ Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.nomeCompleto(); /'Olá! Meu nome é João Silva!'
+pessoa.nomeCompleto(); //'Olá! Meu nome é João Silva!'
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.mostrarIdade(); /'Olá, eu tenho 15 anos!'
+pessoa.mostrarIdade(); //'Olá, eu tenho 15 anos!'
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.mostrarPeso(); /'Eu peso 50Kg.'
+pessoa.mostrarPeso(); //'Eu peso 50Kg.'
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.mostrarAltura(); /'Minha altura é 1.5m.'
+pessoa.mostrarAltura(); //'Minha altura é 1.5m.'
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
@@ -119,7 +119,7 @@ Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-pessoa.idade; /18
+pessoa.idade; //18
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
@@ -133,7 +133,7 @@ pessoa.andar(25);
 A pessoa ainda está andando? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.andando; /true
+pessoa.andando; //true
 
 /*
 Se a pessoa ainda está andando, faça-a parar.
@@ -144,13 +144,13 @@ pessoa.parar();
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
-pessoa.andando; /false
+pessoa.andando; //false
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
 inline ao lado da instrução para mostrar a resposta retornada)
 */
-pessoa.caminhouQuantosMetros; /175
+pessoa.caminhouQuantosMetros; //175
 
 
 /*
@@ -188,6 +188,6 @@ return 'Olá, eu sou ' + sexo + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + ', 
 }
 
 // Agora, apresente-se ;)
-pessoa.apresentacao(); /Olá, eu sou o João Silva, tenho 18 anos, 1.5, meu peso é 50 e, só hoje, eu já caminhei 175 metros!
+pessoa.apresentacao(); //Olá, eu sou o João Silva, tenho 18 anos, 1.5, meu peso é 50 e, só hoje, eu já caminhei 175 metros!
 
 ```
